@@ -6,14 +6,12 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import NavigationBar from './components/NavigationBar'
 import App from './App'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-            {/* <NavigationBar /> */}
             <Routes>
                 <Route path="/" element={<App />} />
             </Routes>
